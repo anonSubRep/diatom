@@ -2,7 +2,7 @@
 DIATOM - Disentangled Adversarial Neural Topic Model
 ===================
 
-This is an anonymous repository for the NAACL 2021 submission:
+This is an anonymous repository for the NAACL 2021 submission:\
 *A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews*
 
 
@@ -19,9 +19,9 @@ In the `dataset` folder, we have shared an excerpt of the annotated sentences fo
 
 Further details on the data annotation process and inter-annotator agreement are available in the paper's Appendix.
 
-[1]: [Learning word vectors for sentiment analysis](https://www.aclweb.org/anthology/P11-1015/), Maas et al., ACL11
-[2]: [Fine-grained spoiler detection from large-scale review corpora](https://www.aclweb.org/anthology/P19-1248/), Wan et al., ACL19
-[3]: [Image-based recommendations on styles and substitutes](https://dl.acm.org/doi/10.1145/2766462.2767755), McAuley et al., SIGIR15
+[1]: [Learning word vectors for sentiment analysis](https://www.aclweb.org/anthology/P11-1015/), Maas et al., ACL11\
+[2]: [Fine-grained spoiler detection from large-scale review corpora](https://www.aclweb.org/anthology/P19-1248/), Wan et al., ACL19\
+[3]: [Image-based recommendations on styles and substitutes](https://dl.acm.org/doi/10.1145/2766462.2767755), McAuley et al., SIGIR15\
 [4]: [MPST: A corpus of movie plot synopses with tags](https://www.aclweb.org/anthology/L18-1274/), Kar et al., LREC18
 
 
@@ -54,18 +54,19 @@ Additional scripts and information will be released upon acceptance.
 
 ## Files ##
 Current repository structure
+
 ./
-- diatom: Core architecture of the DIATOM model
-- mobo_dataset: Extract of the annotated sentences from the MOBO dataset
+- `diatom`: Core architecture of the DIATOM model
+- `mobo_dataset`: Extract of the annotated sentences from the MOBO dataset
 
 ./diatom/
-- main_adv_vae.py: Main file for training and test procedures
-- adversarial_vae_model.py: DIATOM architecture and functions
-- vae_avitm_paper.py: Basic VAE components adopted in DIATOM
-- sentiment_classifier.py: Basic classifier used in the adversarial mechanism
-- topic_class.py: Auxiliary topic class
+- `main_adv_vae.py`: Main file for training and test procedures
+- `adversarial_vae_model.py`: DIATOM architecture and functions
+- `vae_avitm_paper.py`: Basic VAE components adopted in DIATOM
+- `sentiment_classifier.py`: Basic classifier used in the adversarial mechanism
+- `topic_class.py`: Auxiliary topic class
 
 ./mobo_dataset/
-- Amazon_annotated_sentences_excerpt.json
-- GoodReads_annotated_sentences_excerpt.json
-- IMDB_annotated_sentences_excerpt.json
+- `Amazon_annotated_sentences_excerpt.json`
+- `GoodReads_annotated_sentences_excerpt.json`
+- `IMDB_annotated_sentences_excerpt.json`
